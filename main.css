@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+h3,
+h4,
+h5 {
+  font-weight: 400; }
+
+body {
+  background-color: #ccc9c9;
+  max-width: 428px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px; }
+  body .container {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px; }
+    body .container .heading img {
+      width: 50%;
+      padding: 10px 0; }
+    body .container .asset-information {
+      border-radius: 10px;
+      background: #f8f7f7;
+      box-shadow: 5px 5px 10px #e4e3e3, -5px -5px 10px #ffffff;
+      padding: 10px 0;
+      margin-bottom: 10px; }
+    body .container .assessment-photos {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      align-items: flex-start;
+      align-content: flex-start;
+      border-radius: 10px;
+      background: #f8f7f7;
+      box-shadow: 5px 5px 10px #e4e3e3, -5px -5px 10px #ffffff;
+      padding: 10px 0; }
+      body .container .assessment-photos .assessment-photos-input {
+        display: flex;
+        flex-direction: column;
+        background: #f8f7f7;
+        border-radius: 5px;
+        box-shadow: 3px 3px 5px #f8cbcb, -3px -3px 5px #f8cbcb; }
+        body .container .assessment-photos .assessment-photos-input h5 {
+          padding-top: 5px; }
+        body .container .assessment-photos .assessment-photos-input input {
+          margin: 1px;
+          background-image: url(resources/ThermoFisher.jpeg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          width: 130px;
+          height: 90px;
+          border-radius: 3px;
+          border: solid #c9c1c1 0.5px; }
+          body .container .assessment-photos .assessment-photos-input input input::content {
+            background-color: bisque; }
+    body .container form {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      padding: 10px 0;
+      border-radius: 10px;
+      background: #f8f7f7;
+      box-shadow: 5px 5px 10px #e4e3e3, -5px -5px 10px #ffffff; }
+      body .container form input {
+        width: 50%; }
+      body .container form label {
+        padding-top: 5px; }
+    body .container .photo-of-defects {
+      margin: 10px 0;
+      padding: 10px 0;
+      border-radius: 10px;
+      background: #f8f7f7;
+      box-shadow: 5px 5px 10px #e4e3e3, -5px -5px 10px #ffffff; }
+      body .container .photo-of-defects input {
+        background-image: url(resources/Volvo.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 160px;
+        height: 90px;
+        border-radius: 10px;
+        border: dashed #737070 0.5px; }
+    body .container .conditional-assessment {
+      padding: 10px 0;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border-radius: 10px;
+      background: #f8f7f7;
+      box-shadow: 5px 5px 10px #e4e3e3, -5px -5px 10px #ffffff; }
+      body .container .conditional-assessment .condition-score span {
+        font-size: .8rem;
+        font-style: italic;
+        color: #413e3e; }
+    body .container button {
+      background-color: #4649f0;
+      margin: 5px 0;
+      padding: 5px 20px;
+      border: none;
+      border-radius: 5px;
+      color: white; }
+    body .container footer {
+      background-color: #141414;
+      color: #aeabab;
+      padding: 10px 0 10px 20px;
+      font-size: .7rem; }

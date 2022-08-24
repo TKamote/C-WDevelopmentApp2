@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+        <link rel="icon" type="image/png" sizes="60@3x" href="/resources/CWServices_LOGO_1-1.png">
+    <link rel="stylesheet" href="main.css">
+    <title>C&W Services</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="heading">
+      <img src="./resources/CWServices_LOGO_1-1.png" alt="logo">
+    </div>
+    <div class="asset-information" id="asset-information">
+      <h3>Asset Information</h3>
+      <h5>System:</h5>
+      <h5>Location:</h5>
+      <h5>Equipment Designation:</h5>
+    </div>
+    <div class="assessment-photos" id="assessment-photos">
+      <h4>Assessment Photos</h4>
+      <div class="assessment-photos-input">
+        <h5>Photo Of Asset Tag</h5>
+      <input class='asset-tag' type="image" src="#" alt="image">
+      </div>
+      <div class="assessment-photos-input">
+        <h5>Photo Of Asset</h5>
+        <input class="asset-photo" type="image" src="#" alt="image">
+      </div>
+    </div>
+    <form>
+      <label>Severity</label>
+      <input list="severity" placeholder="Severity">
+      <datalist id="severity">
+        <option value="1 Severe">
+        <option value="2 Serious">
+        <option value="3 Minor">
+      </datalist>
+      <label>Intensity</label>
+      <input list="intensity" placeholder="Intensity">
+      <datalist id="intensity">
+        <option value="Intensity 1">
+        <option value="Intensity 2">
+        <option value="Intensity 3">
+      </datalist>
+      <label>Extent</label>
+      <input list="extent" placeholder="Extent">
+      <datalist id="extent">
+        <option value="Extent 1">
+        <option value="Extent 2">
+        <option value="Extent 3">
+        <option value="Extent 4">
+        <option value="Extent 5">
+          <!-- i can use the logic of TIC TAC TOE by Tom Bowden Udemy Course to carry out the formula -->
+      </datalist>
+    </form>
+    <div class="photo-of-defects" id="photo-of-defects">
+      <p>Photo Of Defect (If any)</p>
+      <input type="image" src="#" alt="image">
+    </div>
+    <div class="conditional-assessment" id="conditional-assessment">
+      <h4>Condition Score</h4>
+      <div class='condition-score' id="condition-score"><span>[Score and remarks goes here]</span></div>
+      <input type="text">
+    </div>
+    <button type="submit">SUBMIT</button>
+    <footer>&copy David Onquit - Software Developer</footer>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
